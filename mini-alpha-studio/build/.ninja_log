@@ -1,0 +1,20 @@
+# ninja log v7
+4	4215	1757349159789900894	CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_opengl3.cpp.o	7a869152b8a72b33
+3	6179	1757349159789422113	CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_sdl2.cpp.o	c4342b1abc5053b6
+9	7686	1757349159795557437	CMakeFiles/streamer_pi.dir/src/streamer_pi.cpp.o	3e92b753eac3ed3b
+10	9570	1757349159796357211	CMakeFiles/streamer_pi.dir/src/backtest.cpp.o	9fcaafd3191b0e22
+6	9778	1757349159792253843	CMakeFiles/mini_alpha_gui.dir/src/backtest.cpp.o	58725d8cfcb5d20
+6	10758	1757349159791876517	CMakeFiles/mini_alpha_gui.dir/src/csv.cpp.o	192f6455f8796570
+10	10886	1757349159795953970	CMakeFiles/streamer_pi.dir/src/csv.cpp.o	2da595822b71dcce
+2	10938	1757349159788597048	CMakeFiles/imgui.dir/third_party/imgui/imgui_tables.cpp.o	aa1b1f1a8f4f8fef
+10886	11114	1757349170671735057	streamer_pi	e3894838ca9dbbd8
+5	11426	1757349159791385695	CMakeFiles/mini_alpha_gui.dir/src/main_gui.cpp.o	41a1e4a94f18aa94
+3	13128	1757349159789045163	CMakeFiles/imgui.dir/third_party/imgui/imgui_widgets.cpp.o	1ae3d999f3899215
+2	15480	1757349159788231097	CMakeFiles/imgui.dir/third_party/imgui/imgui_draw.cpp.o	4a8b7e46bababf77
+1	15759	1757349159787672401	CMakeFiles/imgui.dir/third_party/imgui/imgui.cpp.o	bb5ccb3a0d5c1b8
+15760	15934	1757349175545372819	libimgui.a	1d55fb56a98ef2ca
+15934	16061	1757349175719872585	mini_alpha_gui	de54ccf697865fda
+14	5728	1757782779042171247	CMakeFiles/streamer_pi.dir/src/csv.cpp.o	2da595822b71dcce
+13	5837	1757782779041413829	CMakeFiles/mini_alpha_gui.dir/src/csv.cpp.o	192f6455f8796570
+5728	5988	1757782784756756190	streamer_pi	e3894838ca9dbbd8
+5838	5990	1757782784865965175	mini_alpha_gui	de54ccf697865fda
