@@ -23,12 +23,12 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
@@ -45,22 +45,23 @@ events:
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/opt/homebrew/uname"
-      - "/opt/homebrew/bin/uname"
-      - "/opt/homebrew/sbin/uname"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/uname"
       - "/Users/megathunderrage/miniconda3/bin/uname"
       - "/Users/megathunderrage/miniconda3/condabin/uname"
       - "/usr/local/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
     found: "/usr/bin/uname"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -105,12 +106,12 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
@@ -130,11 +131,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -177,12 +179,12 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
@@ -199,22 +201,23 @@ events:
       - "/opt/homebrew/bin/c++"
       - "/opt/homebrew/sbin/c++"
       - "/opt/homebrew/c++"
-      - "/opt/homebrew/bin/c++"
-      - "/opt/homebrew/sbin/c++"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/c++"
       - "/Users/megathunderrage/miniconda3/bin/c++"
       - "/Users/megathunderrage/miniconda3/condabin/c++"
       - "/usr/local/bin/c++"
+      - "/opt/homebrew/bin/c++"
+      - "/opt/homebrew/sbin/c++"
     found: "/usr/bin/c++"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -257,11 +260,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -295,7 +299,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
+        /Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -359,12 +363,12 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -381,11 +385,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -420,12 +425,12 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -442,11 +447,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -481,12 +487,12 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -503,11 +509,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -542,12 +549,12 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -564,11 +571,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -603,12 +611,12 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -625,11 +633,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -664,12 +673,12 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -686,11 +695,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -725,12 +735,12 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -744,12 +754,12 @@ events:
       - "/Users/megathunderrage/.dotnet/tools/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/opt/homebrew/bin/objcopy"
-      - "/opt/homebrew/sbin/objcopy"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/objcopy"
       - "/Users/megathunderrage/miniconda3/bin/objcopy"
       - "/Users/megathunderrage/miniconda3/condabin/objcopy"
       - "/usr/local/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
       - "/bin/objcopy"
       - "/usr/sbin/objcopy"
       - "/sbin/objcopy"
@@ -766,11 +776,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -805,12 +816,12 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -824,12 +835,12 @@ events:
       - "/Users/megathunderrage/.dotnet/tools/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/opt/homebrew/bin/readelf"
-      - "/opt/homebrew/sbin/readelf"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/readelf"
       - "/Users/megathunderrage/miniconda3/bin/readelf"
       - "/Users/megathunderrage/miniconda3/condabin/readelf"
       - "/usr/local/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
       - "/bin/readelf"
       - "/usr/sbin/readelf"
       - "/sbin/readelf"
@@ -846,11 +857,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -885,12 +897,12 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -904,12 +916,12 @@ events:
       - "/Users/megathunderrage/.dotnet/tools/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/opt/homebrew/bin/dlltool"
-      - "/opt/homebrew/sbin/dlltool"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/dlltool"
       - "/Users/megathunderrage/miniconda3/bin/dlltool"
       - "/Users/megathunderrage/miniconda3/condabin/dlltool"
       - "/usr/local/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
       - "/bin/dlltool"
       - "/usr/sbin/dlltool"
       - "/sbin/dlltool"
@@ -926,11 +938,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -965,12 +978,12 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -984,12 +997,12 @@ events:
       - "/Users/megathunderrage/.dotnet/tools/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/opt/homebrew/bin/addr2line"
-      - "/opt/homebrew/sbin/addr2line"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/addr2line"
       - "/Users/megathunderrage/miniconda3/bin/addr2line"
       - "/Users/megathunderrage/miniconda3/condabin/addr2line"
       - "/usr/local/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
       - "/bin/addr2line"
       - "/usr/sbin/addr2line"
       - "/sbin/addr2line"
@@ -1006,11 +1019,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1045,12 +1059,12 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
@@ -1064,12 +1078,12 @@ events:
       - "/Users/megathunderrage/.dotnet/tools/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/opt/homebrew/bin/tapi"
-      - "/opt/homebrew/sbin/tapi"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/tapi"
       - "/Users/megathunderrage/miniconda3/bin/tapi"
       - "/Users/megathunderrage/miniconda3/condabin/tapi"
       - "/usr/local/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
       - "/bin/tapi"
       - "/usr/sbin/tapi"
       - "/sbin/tapi"
@@ -1086,11 +1100,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1127,12 +1142,12 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/opt/homebrew/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
@@ -1149,22 +1164,23 @@ events:
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
       - "/opt/homebrew/install_name_tool"
-      - "/opt/homebrew/bin/install_name_tool"
-      - "/opt/homebrew/sbin/install_name_tool"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/install_name_tool"
       - "/Users/megathunderrage/miniconda3/bin/install_name_tool"
       - "/Users/megathunderrage/miniconda3/condabin/install_name_tool"
       - "/usr/local/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
     found: "/usr/bin/install_name_tool"
     search_context:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1188,31 +1204,31 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u"
-      binary: "/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u"
+      source: "/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5"
+      binary: "/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u'
+        Change Dir: '/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5e648
-        [1/2] /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ddc24
+        [1/2] /usr/bin/c++   -arch x86_64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.0.13.5)
-        Target: arm64-apple-darwin24.5.0
+        Target: x86_64-apple-darwin24.5.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.5.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
@@ -1226,12 +1242,12 @@ events:
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        [2/2] : && /usr/bin/c++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5e648   && :
+        [2/2] : && /usr/bin/c++ -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ddc24   && :
         Apple clang version 17.0.0 (clang-1700.0.13.5)
-        Target: arm64-apple-darwin24.5.0
+        Target: x86_64-apple-darwin24.5.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_5e648 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ddc24 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:44:07 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1253,8 +1269,8 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Effective list of requested architectures (possibly empty)  : "arm64"
-      Effective list of architectures found in the ABI info binary: "arm64"
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
   -
     kind: "message-v1"
     backtrace:
@@ -1289,17 +1305,17 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u']
+        ignore line: [Change Dir: '/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5e648]
-        ignore line: [[1/2] /usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ddc24]
+        ignore line: [[1/2] /usr/bin/c++   -arch x86_64   -v -Wl -v -MD -MT CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
-        ignore line: [Target: arm64-apple-darwin24.5.0]
+        ignore line: [Target: x86_64-apple-darwin24.5.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-9LDQ7u -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/CMakeScratch/TryCompile-S9uVS5 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.5.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
@@ -1313,19 +1329,19 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/c++ -arch arm64 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5e648   && :]
+        ignore line: [[2/2] : && /usr/bin/c++ -arch x86_64 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ddc24   && :]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
-        ignore line: [Target: arm64-apple-darwin24.5.0]
+        ignore line: [Target: x86_64-apple-darwin24.5.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_5e648 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ddc24 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
           arg [-dynamic] ==> ignore
           arg [-arch] ==> ignore
-          arg [arm64] ==> ignore
+          arg [x86_64] ==> ignore
           arg [-platform_version] ==> ignore
           arg [macos] ==> ignore
           arg [15.0.0] ==> ignore
@@ -1335,12 +1351,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5e648] ==> ignore
+          arg [cmTC_ddc24] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5e648.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ddc24.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1411,11 +1427,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/pkgRedirects/SDL2Config.cmake"
+        path: "/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/pkgRedirects/SDL2Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/pkgRedirects/sdl2-config.cmake"
+        path: "/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/pkgRedirects/sdl2-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -1438,11 +1454,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1459,7 +1476,7 @@ events:
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
+        - "/usr/local"
         - "/usr/local"
         - "/usr"
         - "/"
@@ -1500,12 +1517,12 @@ events:
     candidate_directories:
       - "/opt/homebrew/lib/"
       - "/opt/homebrew/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
       - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin/"
       - "/Users/megathunderrage/miniconda3/bin/"
       - "/Users/megathunderrage/miniconda3/condabin/"
       - "/usr/local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
       - "/usr/bin/"
       - "/bin/"
       - "/usr/sbin/"
@@ -1528,11 +1545,12 @@ events:
       CMAKE_PREFIX_PATH:
         - "/opt/homebrew"
       ENV{PATH}:
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
         - "/Users/megathunderrage/.nvm/versions/node/v11.0.0/bin"
         - "/Users/megathunderrage/miniconda3/bin"
         - "/Users/megathunderrage/miniconda3/condabin"
+        - "/usr/local/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/bin"
@@ -1549,7 +1567,7 @@ events:
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
+        - "/usr/local"
         - "/usr/local"
         - "/usr"
         - "/"

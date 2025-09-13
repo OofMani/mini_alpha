@@ -51,6 +51,70 @@ Plotly.newPlot('plot',[
 </script>)";
 }
 
+static void DrawPriceWithTrades(const std::vector<BacktestPoint>& curve,
+                                const std::vector<Trade>& trades,
+                                float height_px = 300.0f)
+{
+    if (curve.empty()) { ImGui::TextDisabled("No data"); return; }
+
+    // Canvas area
+    ImVec2 p0 = ImGui::GetCursorScreenPos();
+    float  w  = ImGui::GetContentRegionAvail().x;
+    float  h  = height_px;
+    ImVec2 p1 = ImVec2(p0.x + w, p0.y + h);
+
+    auto* draw = ImGui::GetWindowDrawList();
+    // Frame
+    draw->AddRect(p0, p1, IM_COL32(180,180,180,255));
+
+    // Find min/max price
+    double min_px = curve.front().px, max_px = curve.front().px;
+    for (auto& p : curve) { if (p.px < min_px) min_px = p.px; if (p.px > max_px) max_px = p.px; }
+    if (max_px <= min_px) max_px = min_px + 1.0; // avoid div by zero
+
+    const int N = (int)curve.size();
+    const float x_step = (N > 1) ? (w / float(N - 1)) : 0.0f;
+
+    // Line segments
+    for (int i=1; i<N; ++i) {
+        float x0 = p0.x + (i-1) * x_step;
+        float x1 = p0.x + (i)   * x_step;
+        float y0 = p0.y + (float)(1.0 - ( (curve[i-1].px - min_px) / (max_px - min_px) )) * h;
+        float y1 = p0.y + (float)(1.0 - ( (curve[i].px   - min_px) / (max_px - min_px) )) * h;
+        draw->AddLine(ImVec2(x0,y0), ImVec2(x1,y1), IM_COL32(200,200,255,255), 1.5f);
+    }
+
+    // Trades (filled circles)
+    const float R = 4.0f;
+    for (auto& tr : trades) {
+        if (tr.idx >= curve.size()) continue;
+        float x = p0.x + (float)tr.idx * x_step;
+        float y = p0.y + (float)(1.0 - ( (curve[tr.idx].px - min_px) / (max_px - min_px) )) * h;
+
+        if (tr.dir > 0) {
+            // Buy = green
+            draw->AddCircleFilled(ImVec2(x,y), R, IM_COL32(40,200,90,255));
+            draw->AddCircle(ImVec2(x,y), R, IM_COL32(10,150,60,255), 0, 1.5f);
+        } else {
+            // Sell = red
+            draw->AddCircleFilled(ImVec2(x,y), R, IM_COL32(220,70,70,255));
+            draw->AddCircle(ImVec2(x,y), R, IM_COL32(160,40,40,255), 0, 1.5f);
+        }
+    }
+
+    // Legend
+    draw->AddRectFilled(ImVec2(p1.x-130, p0.y+8), ImVec2(p1.x-10, p0.y+46), IM_COL32(0,0,0,120), 6.0f);
+    draw->AddText(ImVec2(p1.x-120, p0.y+12), IM_COL32(200,200,255,255), "Price");
+    draw->AddCircleFilled(ImVec2(p1.x-92, p0.y+30), R, IM_COL32(40,200,90,255));
+    draw->AddText(ImVec2(p1.x-82,  p0.y+24), IM_COL32(230,230,230,255), "Buy");
+    draw->AddCircleFilled(ImVec2(p1.x-48, p0.y+30), R, IM_COL32(220,70,70,255));
+    draw->AddText(ImVec2(p1.x-38,  p0.y+24), IM_COL32(230,230,230,255), "Sell");
+
+    // Advance the ImGui cursor so following items don’t overlap this canvas
+    ImGui::Dummy(ImVec2(w, h + 6.0f));
+}
+
+
 int main() {
     // --- SDL + OpenGL init ---
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER) != 0) {
@@ -134,12 +198,10 @@ int main() {
         ImGui::End();
 
         // Price plot
-        ImGui::Begin("Price");
-        static std::vector<float> px;
-        px.clear(); px.reserve(result.curve.size());
-        for (auto& p : result.curve) px.push_back((float)p.px);
-        if (!px.empty()) ImGui::PlotLines("Close", px.data(), (int)px.size(), 0, nullptr, FLT_MAX, FLT_MAX, ImVec2(-1, 300));
+        ImGui::Begin("Price (with trades)");
+        DrawPriceWithTrades(result.curve, result.trades, 300.0f);
         ImGui::End();
+
 
         // Render
         ImGui::Render();

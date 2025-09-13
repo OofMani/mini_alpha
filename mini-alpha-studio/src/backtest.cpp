@@ -42,6 +42,9 @@ BacktestResult run_ma_crossover(const std::vector<Bar>& bars, const MAParams& p)
         if (mf[i] < ms[i] && pos == 1) want = 0;
 
         if (want != pos) {
+            // Record trade BEFORE modifying pos/cash
+            r.trades.push_back(Trade{ i, bars[i].ts_ms, px, (want==1 ? +1 : -1) });
+
             if (want == 1) { cash -= trade_costed(px, +1); pos = 1; }
             else           { cash += trade_costed(px, -1); pos = 0; }
         }

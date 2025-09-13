@@ -1,5 +1,5 @@
-/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/imgui.dir
-/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/mini_alpha_gui.dir
-/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/streamer_pi.dir
-/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/edit_cache.dir
-/Users/megathunderrage/Downloads/mini-alpha-studio/build/CMakeFiles/rebuild_cache.dir
+/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/imgui.dir
+/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/mini_alpha_gui.dir
+/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/streamer_pi.dir
+/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/edit_cache.dir
+/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build/CMakeFiles/rebuild_cache.dir

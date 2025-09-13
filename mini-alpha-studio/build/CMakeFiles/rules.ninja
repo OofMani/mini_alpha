@@ -7,14 +7,14 @@
 
 # =============================================================================
 # Project: mini_alpha_studio
-# Configurations: Release
+# Configurations: 
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__imgui_unscanned_Release
+rule CXX_COMPILER__imgui_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__imgui_unscanned_Release
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER__imgui_Release
+rule CXX_STATIC_LIBRARY_LINKER__imgui_
   command = $PRE_LINK && /usr/local/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && /usr/local/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
@@ -33,7 +33,7 @@ rule CXX_STATIC_LIBRARY_LINKER__imgui_Release
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__mini_alpha_gui_unscanned_Release
+rule CXX_COMPILER__mini_alpha_gui_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -43,7 +43,7 @@ rule CXX_COMPILER__mini_alpha_gui_unscanned_Release
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__mini_alpha_gui_Release
+rule CXX_EXECUTABLE_LINKER__mini_alpha_gui_
   command = $PRE_LINK && /usr/bin/c++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -52,7 +52,7 @@ rule CXX_EXECUTABLE_LINKER__mini_alpha_gui_Release
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__streamer_pi_unscanned_Release
+rule CXX_COMPILER__streamer_pi_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -62,7 +62,7 @@ rule CXX_COMPILER__streamer_pi_unscanned_Release
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__streamer_pi_Release
+rule CXX_EXECUTABLE_LINKER__streamer_pi_
   command = $PRE_LINK && /usr/bin/c++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -80,7 +80,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/local/bin/cmake --regenerate-during-build -S/Users/megathunderrage/Downloads/mini-alpha-studio -B/Users/megathunderrage/Downloads/mini-alpha-studio/build
+  command = /usr/local/bin/cmake --regenerate-during-build -S/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio -B/Users/megathunderrage/Downloads/mini_alpha/mini-alpha-studio/build
   description = Re-running CMake...
   generator = 1
 
