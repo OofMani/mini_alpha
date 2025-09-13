@@ -55,6 +55,7 @@ add_executable(mini_alpha_gui
   src/main_gui.cpp
   src/csv.cpp   
   src/backtest.cpp        # GUI uses the CSV loader
+  src/optimize.cpp
 )
 target_include_directories(mini_alpha_gui PUBLIC include third_party/imgui)
 target_link_libraries(mini_alpha_gui PRIVATE imgui ${SDL2_LINK_TARGET})

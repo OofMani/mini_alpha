@@ -2,6 +2,7 @@
 #include "imgui.h"
 #include "backends/imgui_impl_sdl2.h"
 #include "backends/imgui_impl_opengl3.h"
+#include "optimize.hpp"
 
 #if __APPLE__
 #  include <OpenGL/gl3.h>
@@ -186,6 +187,43 @@ int main() {
         }
         ImGui::SameLine();
         ImGui::TextDisabled("(writes to ./reports/)");
+
+        static bool show_opt = false;
+if (ImGui::Button("Optimize Fast/Slow (grid)")) show_opt = true;
+
+if (show_opt) {
+    ImGui::Separator();
+    ImGui::Text("Grid search over multiple CSVs");
+    static char p0[256] = "sample_data/spy_1min.csv";
+    static char p1[256] = "";
+    static char p2[256] = "";
+    static char p3[256] = "";
+    static char p4[256] = "";
+    ImGui::InputText("CSV #1", p0, sizeof(p0));
+    ImGui::InputText("CSV #2", p1, sizeof(p1));
+    ImGui::InputText("CSV #3", p2, sizeof(p2));
+    ImGui::InputText("CSV #4", p3, sizeof(p3));
+    ImGui::InputText("CSV #5", p4, sizeof(p4));
+    static int fmin=5,fmax=60,smin=20,smax=200;
+    ImGui::InputInt("fast min", &fmin); ImGui::SameLine(); ImGui::InputInt("fast max", &fmax);
+    ImGui::InputInt("slow min", &smin); ImGui::SameLine(); ImGui::InputInt("slow max", &smax);
+
+    if (ImGui::Button("Run grid search")) {
+        std::vector<std::string> paths;
+        if (p0[0]) paths.push_back(p0);
+        if (p1[0]) paths.push_back(p1);
+        if (p2[0]) paths.push_back(p2);
+        if (p3[0]) paths.push_back(p3);
+        if (p4[0]) paths.push_back(p4);
+
+        auto opt = grid_search_fast_slow(paths, params, fmin, fmax, smin, smax);
+        if (opt.best_fast>0) {
+            params.fast = opt.best_fast;
+            params.slow = opt.best_slow;
+            result = run_ma_crossover(bars, params);
+        }
+    }
+}
 
         ImGui::End();
 
