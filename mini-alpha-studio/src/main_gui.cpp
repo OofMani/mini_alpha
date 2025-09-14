@@ -140,7 +140,7 @@ int main() {
 
     // --- Load CSV (relative to CWD) ---
     std::string warn, err;
-    auto bars = load_csv("sample_data/spy_1min.csv", warn, err);
+    auto bars = load_csv("sample_data/TSLA_5Y.csv", warn, err);
 
     // --- Backtest state ---
     MAParams params;
@@ -194,10 +194,10 @@ if (ImGui::Button("Optimize Fast/Slow (grid)")) show_opt = true;
 if (show_opt) {
     ImGui::Separator();
     ImGui::Text("Grid search over multiple CSVs");
-    static char p0[256] = "sample_data/spy_1min.csv";
-    static char p1[256] = "";
-    static char p2[256] = "";
-    static char p3[256] = "";
+    static char p0[256] = "sample_data/TSLA_5Y.csv";
+    static char p1[256] = "sample_data/MSFT_5Y.csv";
+    static char p2[256] = "sample_data/NVDA_5Y.csv";
+    static char p3[256] = "sample_data/AAPL_5Y.csv";
     static char p4[256] = "";
     ImGui::InputText("CSV #1", p0, sizeof(p0));
     ImGui::InputText("CSV #2", p1, sizeof(p1));
